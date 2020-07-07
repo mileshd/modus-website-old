@@ -1,0 +1,10 @@
+.modules-page {
+  margin-top: 60px;
+}
+.modules-page .modules-title {
+  font-size: 2em;
+}
+.modules-page .modules-section {
+  font-size: 1.25em;
+  margin-top: 15px;
+}

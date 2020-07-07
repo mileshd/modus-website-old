@@ -1,0 +1,19 @@
+.home-page {
+  margin-top: 40px;
+}
+
+.pitch {
+  background: #2F2E2E;
+  color: white;
+  padding: 50px;
+}
+
+.about-modus {
+  background: white;
+  color: #2F2E2E;
+  padding: 50px;
+}
+
+p {
+  font-size: 1.5em;
+}

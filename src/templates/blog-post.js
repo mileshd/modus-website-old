@@ -4,7 +4,6 @@ import $ from 'jquery'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import '../styles/comic.css'
 
 class BlogPostTemplate extends React.Component {
   componentDidMount() {

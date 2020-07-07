@@ -1,0 +1,10 @@
+.pricing-page {
+  margin-top: 60px;
+}
+.pricing-page .pricing-title {
+  font-size: 2em;
+}
+.pricing-page .pricing-section {
+  font-size: 1.25em;
+  margin-top: 15px;
+}
