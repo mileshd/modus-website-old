@@ -14,6 +14,22 @@
   padding: 50px;
 }
 
+.features {
+}
+.features h3 {
+  font-size: 1.75em;
+}
+.features i {
+  margin-right: 10px;
+}
+.features ul {
+  list-style-type: none;
+  font-size: 1.25em;
+}
+.features ul li {
+  margin-bottom: 10px;
+}
+
 p {
   font-size: 1.5em;
 }

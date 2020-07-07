@@ -62,6 +62,59 @@ const Index = ({ data, location }) => {
             </div>
           </div>
         </div>
+        <div className="features">
+          <div className="container">
+            <h2>
+              Unleash Your Business with Seamless Cross-Functional Planning and Execution
+            </h2>
+            <div className="row">
+              <div className="col-xs-12 col-sm-6 col-md-3">
+                <h3>
+                  <i className="fa fa-truck" />
+                  Supply Chain
+                </h3>
+                <ul>
+                  <li>Optimize Inventories</li>
+                  <li>Capacity Plan with Ease</li>
+                  <li>Understand Transportation Costs</li>
+                </ul>
+              </div>
+              <div className="col-xs-12 col-sm-6 col-md-3">
+                <h3>
+                  <i className="fa fa-users" />
+                  Customer Service
+                </h3>
+                <ul>
+                  <li>Anticipate promotions and other demand drivers.</li>
+                  <li>Eliminate Out-of-Stocks</li>
+                  <li>Manage Spoilage Risk</li>
+                </ul>
+              </div>
+              <div className="col-xs-12 col-sm-6 col-md-3">
+                <h3>
+                  <i className="fa fa-shopping-basket" />
+                  Trade Marketing
+                </h3>
+                <ul>
+                  <li>Monitor progress vs. the budget</li>
+                  <li>Manage Retailer Margins</li>
+                  <li>Understand Trade Rates</li>
+                  <li>Optimize Promotion Plans</li>
+                </ul>
+              </div>
+              <div className="col-xs-12 col-sm-6 col-md-3">
+                <h3>
+                  <i className="fa fa-money" />
+                  Finance
+                </h3>
+                <ul>
+                  <li>Confidently forecast financials and deductions</li>
+                  <li>Vet and validate Retailer Chargebacks</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </Layout>
   )
