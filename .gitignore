@@ -1,0 +1,17 @@
+# Editor Files
+*.swo
+*.swp
+.vscode
+.DS_Store
+npm-debug.log
+dump.rdb
+.cache
+
+# Data
+data/database-dumps
+data/sql
+
+# Compiled App
+logs
+node_modules/
+public

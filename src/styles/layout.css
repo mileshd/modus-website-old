@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Lora|Cinzel|Questrial');
+
+body {
+  font-family: 'Questrial', serif;
+}
+
+/*.page {*/
+  /*margin-top: 40px;*/
+/*}*/
+
+/* Override Bootstrap */
+.navbar-fixed-top {
+  border-width: 0;
+}
+.navbar-default {
+  background: white;
+  color: black;
+}
+
+/* Global Styles */
+.primary-button {
+  font-family: "Questrial";
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  background: rgb(9, 139, 140);
+  border-radius: 4px;
+  padding: 10px 16px;
+}
