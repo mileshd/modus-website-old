@@ -11,15 +11,19 @@ const ModulesPage = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="Modus Planning Modules" />
-      <div className="modules-page">
-        <div className="modules-section">
-          We believe that entrepreneurs and innovators have a right to the best systems. At OnePage, our mission is to provide the tools they need to plan and execute their business with excellence.
+      <div className="modules">
+        <div className="intro">
+          <h2>Achieve Your Brand's Ambitious Goals with Modus Planning</h2>
+          <h3>Allocate precious resources effectively and always delight the customer with superior execution</h3>
         </div>
-        <div className="modules-section">
-          OnePage Software's applications are created by CPG people For CPG people. We strive to develop products that are massively impactful while being easy to afford and even easier to learn.
+        <div className="demand">
+          <h2>Demand</h2>
         </div>
-        <div className="modules-section">
-          Our philosophy guides our approach to every client relationship. We desire to create long-lasting, robust partnerships where constant feedback allows us to optimize and refine our products to drive the most value possible.
+        <div className="trade">
+          <h2>Trade</h2>
+        </div>
+        <div className="order">
+          <h2>Order Execution</h2>
         </div>
       </div>
     </Layout>

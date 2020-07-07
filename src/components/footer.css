@@ -4,3 +4,22 @@
   color: white;
   width: 100%;
 }
+.footer ul {
+  list-style-type: none;
+  padding-left: 10px;
+}
+.footer ul li {
+  margin-bottom: 10px;
+  font-size: 1.25em;
+}
+.footer ul li .link {
+  color: white
+}
+.footer ul li .link:hover {
+  cursor: pointer;
+  color: #E1AB05;
+  text-decoration: none;
+}
+.footer .copyright {
+  margin-top: 100px;
+}

@@ -1,10 +1,15 @@
-.modules-page {
-  margin-top: 60px;
+.modules {
+  margin-top: 40px;
 }
-.modules-page .modules-title {
-  font-size: 2em;
+.modules .intro {
+  padding: 50px;
 }
-.modules-page .modules-section {
-  font-size: 1.25em;
-  margin-top: 15px;
+.modules .demand {
+  padding: 50px;
+}
+.modules .trade {
+  padding: 50px;
+}
+.modules .order {
+  padding: 50px;
 }

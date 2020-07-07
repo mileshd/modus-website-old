@@ -19,7 +19,9 @@ export default class Footer extends React.Component {
             <div className="col-xs-12 col-sm-3">
               <h3>Company</h3>
               <ul>
-                <li>Pricing</li>
+                <li>
+                  <a href="/pricing" className="link">Pricing</a>
+                </li>
                 <li>Privacy Policy</li>
                 <li>Terms of Service</li>
               </ul>
@@ -33,7 +35,9 @@ export default class Footer extends React.Component {
               </ul>
             </div>
             <div className="col-xs-12 col-sm-3">
-              © 2020 Modus Planning
+              <h4 className="copyright">
+                © 2020 Modus Planning
+              </h4>
             </div>
           </div>
         </div>

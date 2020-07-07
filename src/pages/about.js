@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
+import Image from "gatsby-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -11,15 +12,60 @@ const AboutPage = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="About Us" />
-      <div className="about-page">
-        <div className="about-section">
-          We believe that entrepreneurs and innovators have a right to the best systems. At OnePage, our mission is to provide the tools they need to plan and execute their business with excellence.
+      <div className="about">
+        <div className="philosophy">
+          <div className="container">
+            <h2>Philosophy</h2>
+            <h4>
+              We believe that entrepreneurs and innovators have a right to the best systems. At OnePage, our mission is to provide the tools they need to plan and execute their business with excellence.
+            </h4>
+            <h4>
+              OnePage Software's applications are created by CPG people For CPG people. We strive to develop products that are massively impactful while being easy to afford and even easier to learn.
+            </h4>
+            <h4>
+              Our philosophy guides our approach to every client relationship. We desire to create long-lasting, robust partnerships where constant feedback allows us to optimize and refine our products to drive the most value possible.
+            </h4>
+          </div>
         </div>
-        <div className="about-section">
-          OnePage Software's applications are created by CPG people For CPG people. We strive to develop products that are massively impactful while being easy to afford and even easier to learn.
-        </div>
-        <div className="about-section">
-          Our philosophy guides our approach to every client relationship. We desire to create long-lasting, robust partnerships where constant feedback allows us to optimize and refine our products to drive the most value possible.
+        <div className="team">
+          <div className="container">
+            <h2>The Team</h2>
+            <div className="row">
+              <div className="col-xs-12 col-sm-4">
+                 <Image
+                   fixed={data.headerImage.childImageSharp.fixed}
+                 />
+                <h3>
+                  Ryan Moore, CEO
+                </h3>
+                <p>
+                  Ryan does this.
+                </p>
+              </div>
+              <div className="col-xs-12 col-sm-4">
+                 <Image
+                   fixed={data.headerImage.childImageSharp.fixed}
+                 />
+                <h3>
+                  Miles Dickinson, CTO
+                </h3>
+                <p>
+                  Miles does this.
+                </p>
+              </div>
+              <div className="col-xs-12 col-sm-4">
+                 <Image
+                   fixed={data.headerImage.childImageSharp.fixed}
+                 />
+                <h3>
+                  Brian Doyle, CFO
+                </h3>
+                <p>
+                  Brian does this.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </Layout>
@@ -33,6 +79,15 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+      }
+    }
+    headerImage: file(absolutePath: {
+      regex: "/skew.png/"
+    }) {
+      childImageSharp {
+        fixed(width: 250, height: 250) {
+          ...GatsbyImageSharpFixed
+        }
       }
     }
   }
