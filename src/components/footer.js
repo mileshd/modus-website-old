@@ -8,7 +8,7 @@ export default class Footer extends React.Component {
       <div className="footer">
         <div className="container">
           <div className="row">
-            <div className="col-xs-6 col-sm-3">
+            <div className="col-xs-12 col-sm-3">
               <h3>Modules</h3>
               <ul>
                 <li>Demand Planning</li>
@@ -16,7 +16,7 @@ export default class Footer extends React.Component {
                 <li>Go-to-Market Inventory Management</li>
               </ul>
             </div>
-            <div className="col-xs-6 col-sm-3">
+            <div className="col-xs-12 col-sm-3">
               <h3>Company</h3>
               <ul>
                 <li>Pricing</li>
@@ -24,7 +24,7 @@ export default class Footer extends React.Component {
                 <li>Terms of Service</li>
               </ul>
             </div>
-            <div className="col-xs-6 col-sm-3">
+            <div className="col-xs-12 col-sm-3">
               <h3>Contact Us</h3>
               <ul>
                 <li>Email</li>
@@ -32,7 +32,7 @@ export default class Footer extends React.Component {
                 <li>Facebook</li>
               </ul>
             </div>
-            <div className="col-xs-6 col-sm-3">
+            <div className="col-xs-12 col-sm-3">
               © 2020 Modus Planning
             </div>
           </div>

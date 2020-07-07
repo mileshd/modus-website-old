@@ -19,20 +19,25 @@ const Index = ({ data, location }) => {
           <div className="container">
             <div className="row">
               <div className="col-xs-12 col-sm-6">
-                <h2>
+                <h1>
                   Modus Planning is your Brand's Operating System.
-                </h2>
-                <h4>
+                </h1>
+                <h3>
                   With Modus <i>uniquely</i> at the intersection of Planning and Execution, your brand's potential can be unleashed.
-                </h4>
+                </h3>
                 <button className="btn btn-primary">
                   Schedule a Demo
                 </button>
               </div>
               <div className="col-xs-12 col-sm-6">
-                 <Image
-                   fixed={data.headerImage.childImageSharp.fixed}
-                 />
+                <iframe
+                  width="100%"
+                  height="315"
+                  src="https://player.vimeo.com/video/366639724"
+                  frameBorder="0"
+                  allowFullScreen
+                >
+            </iframe>
               </div>
             </div>
           </div>
@@ -68,7 +73,7 @@ const Index = ({ data, location }) => {
               Unleash Your Business with Seamless Cross-Functional Planning and Execution
             </h2>
             <div className="row">
-              <div className="col-xs-12 col-sm-6 col-md-3">
+              <div className="col-xs-12 col-sm-6 col-md-4">
                 <h3>
                   <i className="fa fa-truck" />
                   Supply Chain
@@ -79,7 +84,7 @@ const Index = ({ data, location }) => {
                   <li>Understand Transportation Costs</li>
                 </ul>
               </div>
-              <div className="col-xs-12 col-sm-6 col-md-3">
+              <div className="col-xs-12 col-sm-6 col-md-4">
                 <h3>
                   <i className="fa fa-users" />
                   Customer Service
@@ -90,7 +95,7 @@ const Index = ({ data, location }) => {
                   <li>Manage Spoilage Risk</li>
                 </ul>
               </div>
-              <div className="col-xs-12 col-sm-6 col-md-3">
+              <div className="col-xs-12 col-sm-6 col-md-4">
                 <h3>
                   <i className="fa fa-shopping-basket" />
                   Trade Marketing
@@ -102,16 +107,6 @@ const Index = ({ data, location }) => {
                   <li>Optimize Promotion Plans</li>
                 </ul>
               </div>
-              <div className="col-xs-12 col-sm-6 col-md-3">
-                <h3>
-                  <i className="fa fa-money" />
-                  Finance
-                </h3>
-                <ul>
-                  <li>Confidently forecast financials and deductions</li>
-                  <li>Vet and validate Retailer Chargebacks</li>
-                </ul>
-              </div>
             </div>
           </div>
         </div>
@@ -119,6 +114,26 @@ const Index = ({ data, location }) => {
     </Layout>
   )
 }
+
+              /*<div className="col-xs-12 col-sm-6">*/
+                /*<h4>*/
+                  /*<i className="fa fa-money" />*/
+                  /*Finance*/
+                /*</h4>*/
+                /*<ul>*/
+                  /*<li>Confidently forecast financials and deductions</li>*/
+                  /*<li>Vet and validate Retailer Chargebacks</li>*/
+                /*</ul>*/
+              /*</div>*/
+              /*<div className="col-xs-12 col-sm-6">*/
+                /*<h4>*/
+                  /*<i className="fa fa-flask" />*/
+                  /*Innovation*/
+                /*</h4>*/
+                /*<ul>*/
+                  /*<li>Gain cross-functional alignement on new item forecasts</li>*/
+                /*</ul>*/
+              /*</div>*/
 
 export default Index
 

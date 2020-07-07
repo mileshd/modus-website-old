@@ -5,7 +5,18 @@
 .pitch {
   background: #2F2E2E;
   color: white;
-  padding: 50px;
+  padding: 75px 50px;
+}
+.pitch h1 {
+  margin-bottom: 25px;
+  line-height: 1.25;
+}
+.pitch h3 {
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+.pitch .btn {
+  margin-bottom: 25px;
 }
 
 .about-modus {
@@ -15,12 +26,20 @@
 }
 
 .features {
+  padding: 50px 50px 100px 50px;
+  background: #c9ddef;
+}
+.features .col-xs-12 {
+  margin-bottom: 25px;
+}
+.features h2 {
+  margin-bottom: 40px;
 }
 .features h3 {
-  font-size: 1.75em;
+  margin-bottom: 25px;
 }
 .features i {
-  margin-right: 10px;
+  margin-right: 15px;
 }
 .features ul {
   list-style-type: none;
