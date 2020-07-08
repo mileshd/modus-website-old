@@ -28,7 +28,7 @@ const PricingPage = ({ data, location }) => {
         </div>
         <div className="demand">
           <div className="container">
-            <h2>Modus Core (Demand Planning) Module</h2>
+            <h2>Demand Planning Module (Core)</h2>
             <div className="row">
               <div className="col-xs-12 col-sm-6">
                 <p>
@@ -51,7 +51,7 @@ const PricingPage = ({ data, location }) => {
         </div>
         <div className="trade">
           <div className="container">
-            <h2>Trade Promotion Management and Optimization Module</h2>
+            <h2>Trade Promotion Management and Optimization Module (Add On)</h2>
             <div className="row">
               <div className="col-xs-12 col-sm-6">
                 <p>
@@ -73,7 +73,7 @@ const PricingPage = ({ data, location }) => {
         </div>
         <div className="inventory">
           <div className="container">
-            <h2>Go-To-Market Inventory Management Module</h2>
+            <h2>Go-To-Market Inventory Management Module (Add On)</h2>
             <div className="row">
               <div className="col-xs-12 col-sm-6">
                 <p>

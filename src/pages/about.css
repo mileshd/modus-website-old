@@ -7,12 +7,23 @@
 }
 .about h4 {
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.75;
+  margin-bottom: 35px;
 }
 .about .philosophy {
   padding: 50px;
+  background: rgb(47,46,46);
+  background: linear-gradient(176deg, rgba(47,46,46,0.804359243697479) 0%, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 65%, rgba(192,144,0,0.6) 100%);
 }
+/*.about .philosophy h4 {*/
+/*}*/
+
 .about .team {
-  padding: 50px;
+  padding: 25px 0 100px 0;
   text-align: center;
+  background: rgb(47,46,46);
+  background: linear-gradient(4deg, rgba(47,46,46,0.804359243697479) 0%, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 65%, rgba(192,144,0,0.6) 100%);
+}
+.about .team img {
+  border-radius: 10px;
 }

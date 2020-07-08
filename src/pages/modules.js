@@ -24,9 +24,9 @@ const ModulesPage = ({ data, location }) => {
                 <h2>Modus Planning</h2>
               </div>
               <div className="col-xs-12 col-sm-9">
-                <h3>Achieve Your Brand's Ambitious Goals with Modus Planning</h3>
+                <h3>Achieve your brand's ambitious goals</h3>
                 <h3>Allocate precious resources effectively</h3>
-                <h3>Always delight the customer with superior execution</h3>
+                <h3>Amaze the customer with superior execution</h3>
               </div>
             </div>
           </div>
@@ -171,6 +171,9 @@ const ModulesPage = ({ data, location }) => {
           <div className="container">
             <div className="row">
               <div className="col-xs-12">
+                <h1>
+                  Modus Has Arrived
+                </h1>
                 <h1>
                   Start Planning For Success
                 </h1>

@@ -33,7 +33,7 @@ const AboutPage = ({ data, location }) => {
             <div className="row">
               <div className="col-xs-12 col-sm-4">
                  <Image
-                   fixed={data.headerImage.childImageSharp.fixed}
+                   fixed={data.ryanPicture.childImageSharp.fixed}
                  />
                 <h3>
                   Ryan Moore, CEO
@@ -44,7 +44,7 @@ const AboutPage = ({ data, location }) => {
               </div>
               <div className="col-xs-12 col-sm-4">
                  <Image
-                   fixed={data.headerImage.childImageSharp.fixed}
+                   fixed={data.milesPicture.childImageSharp.fixed}
                  />
                 <h3>
                   Miles Dickinson, CTO
@@ -55,7 +55,7 @@ const AboutPage = ({ data, location }) => {
               </div>
               <div className="col-xs-12 col-sm-4">
                  <Image
-                   fixed={data.headerImage.childImageSharp.fixed}
+                   fixed={data.brianPicture.childImageSharp.fixed}
                  />
                 <h3>
                   Brian Doyle, CFO
@@ -85,7 +85,34 @@ export const pageQuery = graphql`
       regex: "/skew.png/"
     }) {
       childImageSharp {
-        fixed(width: 250, height: 250) {
+        fixed(width: 200, height: 200) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+    ryanPicture: file(absolutePath: {
+      regex: "/ryan-picture.jpeg/"
+    }) {
+      childImageSharp {
+        fixed(width: 200, height: 200) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+    milesPicture: file(absolutePath: {
+      regex: "/miles-picture.jpeg/"
+    }) {
+      childImageSharp {
+        fixed(width: 200, height: 200) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+    brianPicture: file(absolutePath: {
+      regex: "/brian-picture.jpeg/"
+    }) {
+      childImageSharp {
+        fixed(width: 200, height: 200) {
           ...GatsbyImageSharpFixed
         }
       }
