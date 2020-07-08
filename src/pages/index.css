@@ -22,19 +22,31 @@
 .why {
   background: white;
   color: #2F2E2E;
-  padding: 50px;
+  padding: 25px;
 }
 .why .why-text {
-  max-width: 800px;
+  max-width: 1000px;
+}
+.why .why-text p {
+  margin-bottom: 50px;
+  font-size: 24px;
+  line-height: 1.75;
 }
 .why .first-line {
-  margin-left: 75px;
+  margin-left: 100px;
 }
 .why .second-line {
-  margin-left: 150px;
+  margin-left: 200px;
 }
 .why .third-line {
-  margin-left: 225px;
+  margin-left: 300px;
+}
+@media screen and (max-width: 768px) {
+  .why .first-line,
+  .why .second-line,
+  .why .third-line {
+    margin-left: 0;
+  }
 }
 
 .features {

@@ -45,6 +45,7 @@ const Index = ({ data, location }) => {
         <div className="why">
           <div className="container">
             <div className="why-text">
+              <h1>Why</h1>
               <p className="first-line">
                 Modus Planning is purpose-built for the CPG industry by CPG veterans who saw a major unfilled need – a platform to make planning a small and growing business exponentially more scalable, collaborative, and reliable. 
               </p>

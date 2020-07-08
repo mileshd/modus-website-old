@@ -17,6 +17,9 @@
 .pricing .intro {
   padding: 50px 0;
 }
+.pricing .intro .btn {
+  margin-right: 10px;
+}
 
 .pricing .demand {
   padding: 50px 0;
@@ -34,4 +37,9 @@
   padding: 50px 0;
   background: white;
   color: black;
+}
+.pricing .call-to-action-button {
+  margin-top: 25px;
+  font-size: 18px;
+  padding: 18px;
 }
