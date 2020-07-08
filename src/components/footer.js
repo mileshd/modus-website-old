@@ -12,17 +12,17 @@ export default class Footer extends React.Component {
               <h3>Modules</h3>
               <ul>
                 <li>
-                  <a className="link" href="/modules#demand-planning">
+                  <a className="link" href="modules#demand-planning">
                     Demand Planning
                   </a>
                 </li>
                 <li>
-                  <a className="link" href="/modules#trade-management">
+                  <a className="link" href="modules#trade-management">
                     Trade & Promotion Management
                   </a>
                 </li>
                 <li>
-                  <a className="link" href="/modules#inventory-management">
+                  <a className="link" href="modules#inventory-management">
                     Go-to-Market Inventory Management
                   </a>
                 </li>

@@ -44,6 +44,7 @@
 
 .modules .trade {
   padding: 50px;
+  background: #c9ddef;
 }
 .modules .trade h2 {
   text-align: center;
@@ -56,4 +57,11 @@
 .modules .order h2 {
   text-align: center;
   margin-bottom: 25px;
+}
+.modules .order .inventory-features h1 {
+  display: inline-block;
+}
+.modules .order .inventory-features h3 {
+  display: inline-block;
+  margin-left: 10px;
 }

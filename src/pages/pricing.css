@@ -3,6 +3,35 @@
   background: #2F2E2E;
   color: white;
 }
+.pricing ul {
+  list-style-type: none;
+}
+.pricing ul li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.pricing p {
+  line-height: 2;
+}
+
 .pricing .intro {
   padding: 50px 0;
+}
+
+.pricing .demand {
+  padding: 50px 0;
+  background: #dfc67b;
+  color: black;
+}
+
+.pricing .trade {
+  padding: 50px 0;
+  background: #c9ddef;
+  color: black;
+}
+
+.pricing .inventory {
+  padding: 50px 0;
+  background: white;
+  color: black;
 }
