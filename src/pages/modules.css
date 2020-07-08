@@ -26,9 +26,34 @@
 .modules .demand {
   padding: 50px;
 }
+.modules .demand h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.modules .demand .demand-section {
+  margin-bottom: 25px;
+}
+/*.modules .demand .demand-section ul {*/
+  /*list-style-type: none;*/
+  /*font-size: 18px;*/
+/*}*/
+/*.modules .demand .demand-section li {*/
+  /*margin-bottom: 10px;*/
+/*}*/
+
+
 .modules .trade {
   padding: 50px;
 }
+.modules .trade h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
 .modules .order {
   padding: 50px;
+}
+.modules .order h2 {
+  text-align: center;
+  margin-bottom: 25px;
 }
