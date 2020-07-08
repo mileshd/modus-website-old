@@ -27,6 +27,7 @@ const ModulesPage = ({ data, location }) => {
             <h3>Always delight the customer with superior execution</h3>
           </div>
         </div>
+        <a name="demand-planning"></a>
         <div className="demand">
           <h2>Demand Planning</h2>
           <div className="demand-section one">
@@ -63,39 +64,76 @@ const ModulesPage = ({ data, location }) => {
           <div className="demand-section two">
           </div>
         </div>
+        <a name="trade-management"></a>
         <div className="trade">
-          <h2>Trade and Promotion Management</h2>
+          <h2>Trade & Promotion Management</h2>
         </div>
+        <a name="inventory-management"></a>
         <div className="order">
-          <h2>Order Execution</h2>
+          <h2>Go-to-Market Inventory Management</h2>
 
-          <h3>Ensure Success at the Shelf by Proactively Managing Customer Orders</h3>
-          <p>
-            Take control of your destiny! Retailer procurement teams work very hard, but with dozens of brands to order and maintain, it is all too possible for costly mistakes to slip through the cracks and impact your brand
-          </p>
-          <p>
-            Modus Inventory Management gives your brand a chance to identify, call out, and rectify these mistakes ahead of time to optimize shelf-presence among competition.
-          </p>
-
-          <h3>Model Customer DC Days-on-Hand</h3>
-          <p>
-            Using the demand-plan at the customer DC level, coupled with customer orders, Modus can project consignees' stock positions. If available, add in your customers' actual inventory positions to gut-check the forecast.
-          </p>
-
-          <h3>Always Be In Stock</h3>
-          <p>
-            Using the demand-plan at the customer DC level, coupled with customer orders, Modus can project consignees' stock positions. If available, add in your customers' actual inventory positions to gut-check the forecast.
-          </p>
-
-          <h3>Avoid Spoiling Product</h3>
-          <p>
-            With a few variables, Modus can project whether or not product will spoil, either in the DC or on shelf. This vital intelligence can help ensure that you do not incur unnecessary reclamation charges. This is incredibly useful for shorter shelf-life, perishable items.
-          </p>
+          <div className="row">
+            <div className="col-xs-12 col-sm-6">
+              <h3>Ensure Success at the Shelf by Proactively Managing Customer Orders</h3>
+              <p>
+                Take control of your destiny! Retailer procurement teams work very hard, but with dozens of brands to order and maintain, it is all too possible for costly mistakes to slip through the cracks and impact your brand
+              </p>
+              <p>
+                Modus Inventory Management gives your brand a chance to identify, call out, and rectify these mistakes ahead of time to optimize shelf-presence among competition.
+              </p>
+            </div>
+            <div className="col-xs-12 col-sm-6">
+              <iframe
+                width="100%"
+                height="315"
+                src="https://player.vimeo.com/video/366639724"
+                frameBorder="0"
+                allowFullScreen
+              >
+              </iframe>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-xs-12 col-sm-4">
+              <h1><i className="fa fa-calendar" /></h1>
+              <h3>Model Customer DC Days-on-Hand</h3>
+              <p>
+                Using the demand-plan at the customer DC level, coupled with customer orders, Modus can project consignees' stock positions. If available, add in your customers' actual inventory positions to gut-check the forecast.
+              </p>
+            </div>
+            <div className="col-xs-12 col-sm-4">
+              <h3>Always Be In Stock</h3>
+              <p>
+                Using the demand-plan at the customer DC level, coupled with customer orders, Modus can project consignees' stock positions. If available, add in your customers' actual inventory positions to gut-check the forecast.
+              </p>
+            </div>
+            <div className="col-xs-12 col-sm-4">
+              <h3>Avoid Spoiling Product</h3>
+              <p>
+                With a few variables, Modus can project whether or not product will spoil, either in the DC or on shelf. This vital intelligence can help ensure that you do not incur unnecessary reclamation charges. This is incredibly useful for shorter shelf-life, perishable items.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </Layout>
   )
 }
+
+          //<h3>Model Customer DC Days-on-Hand</h3>
+          //<p>
+            //Using the demand-plan at the customer DC level, coupled with customer orders, Modus can project consignees' stock positions. If available, add in your customers' actual inventory positions to gut-check the forecast.
+          //</p>
+
+          //<h3>Always Be In Stock</h3>
+          //<p>
+            //Using the demand-plan at the customer DC level, coupled with customer orders, Modus can project consignees' stock positions. If available, add in your customers' actual inventory positions to gut-check the forecast.
+          //</p>
+
+          //<h3>Avoid Spoiling Product</h3>
+          //<p>
+            //With a few variables, Modus can project whether or not product will spoil, either in the DC or on shelf. This vital intelligence can help ensure that you do not incur unnecessary reclamation charges. This is incredibly useful for shorter shelf-life, perishable items.
+          //</p>
 
 export default ModulesPage
 

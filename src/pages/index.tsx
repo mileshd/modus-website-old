@@ -110,7 +110,7 @@ const Index = ({ data, location }) => {
                 <h1>
                   Join the New Standard for Growing Brands
                 </h1>
-                <button className="btn btn-primary">
+                <button className="btn btn-primary call-to-action-button">
                   Schedule a Demo
                 </button>
               </div>
