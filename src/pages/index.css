@@ -1,5 +1,5 @@
 .home-page {
-  margin-top: 40px;
+  margin-top: 15px;
 }
 
 .pitch {
@@ -19,10 +19,22 @@
   margin-bottom: 25px;
 }
 
-.about-modus {
+.why {
   background: white;
   color: #2F2E2E;
   padding: 50px;
+}
+.why .why-text {
+  max-width: 800px;
+}
+.why .first-line {
+  margin-left: 75px;
+}
+.why .second-line {
+  margin-left: 150px;
+}
+.why .third-line {
+  margin-left: 225px;
 }
 
 .features {
@@ -51,4 +63,13 @@
 
 p {
   font-size: 1.5em;
+}
+
+.call-to-action {
+  padding: 50px 50px 100px 50px;
+  background: #2F2E2E;
+  /*background: rgb(47,46,46);*/
+  /*background: radial-gradient(circle, rgba(47,46,46,1) 50%, rgba(192,144,0,0.6) 100%);*/
+  color: white;
+  text-align: center;
 }

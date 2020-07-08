@@ -3,7 +3,26 @@
 }
 .modules .intro {
   padding: 50px;
+  background: #2F2E2E;
+  color: white;
+  /*background: rgb(47,46,46);*/
+  /*background: linear-gradient(90deg, rgba(47,46,46,1) 0%, rgba(255,255,255,1) 50%, rgba(192,144,0,0.6) 100%);*/
 }
+/*.modules h2 {*/
+  /*display: inline-block;*/
+/*}*/
+.modules .intro .logo {
+  color: white;
+  text-align: center;
+}
+.modules .intro .logo-img {
+  text-align: center;
+}
+.modules .intro h3 {
+  font-size: 28px;
+  line-height: 1.75;
+}
+
 .modules .demand {
   padding: 50px;
 }
