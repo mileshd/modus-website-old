@@ -22,7 +22,7 @@ const PricingPage = ({ data, location }) => {
               Modus is a secure, cloud-based service and bills monthly with no long term commitment.
             </p>
             <p>
-              <button className="btn btn-primary">Get in Touch</button> to learn more about pricing.
+              <a href="/contact" className="btn btn-primary">Get in Touch</a> to learn more about pricing.
             </p>
           </div>
         </div>
@@ -100,9 +100,9 @@ const PricingPage = ({ data, location }) => {
             <h3>
               We understand that a growing brand has minimal time to work through a software implementation. We have lived it, we get it. To that end, we'll take your current files and our experienced team will do their best to build out your Modus World.
             </h3>
-            <button className="btn btn-primary call-to-action-button">
+            <a href="/contact" className="btn btn-primary call-to-action-button">
               Get in Touch
-            </button>
+            </a>
           </div>
         </div>
       </div>

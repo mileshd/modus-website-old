@@ -33,9 +33,12 @@ export default class Header extends React.Component {
             <ul className="nav navbar-nav navbar-right">
               <li><a href="https://app.modusplanning.com" target="_blank">Sign In</a></li>
               <li>
-                <button className="btn btn-primary header-demo-button">
+                <a
+                  href="/contact"
+                  className="btn btn-primary header-demo-button"
+                >
                   Schedule A Demo
-                </button>
+                </a>
               </li>
             </ul>
           </div>

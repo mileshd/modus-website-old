@@ -25,9 +25,9 @@ const Index = ({ data, location }) => {
                 <h3>
                   With Modus <i>uniquely</i> at the intersection of Planning and Execution, your brand's potential can be unleashed.
                 </h3>
-                <button className="btn btn-primary">
+                <a href="/contact" className="btn btn-primary">
                   Schedule a Demo
-                </button>
+                </a>
               </div>
               <div className="col-xs-12 col-sm-6">
                 <iframe
@@ -111,9 +111,9 @@ const Index = ({ data, location }) => {
                 <h1>
                   Join the New Standard for Growing Brands
                 </h1>
-                <button className="btn btn-primary call-to-action-button">
+                <a href="/contact" className="btn btn-primary call-to-action-button">
                   Schedule a Demo
-                </button>
+                </a>
               </div>
             </div>
           </div>

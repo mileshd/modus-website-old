@@ -1,0 +1,10 @@
+.contact {
+  margin-top: 10px;
+}
+
+.contact .monday-contact-form {
+}
+/* Override */
+.contact .form-content-component .form-titles .form-is-anonymous-indicator {
+  display: none !important;
+}

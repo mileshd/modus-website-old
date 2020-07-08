@@ -177,9 +177,9 @@ const ModulesPage = ({ data, location }) => {
                 <h1>
                   Start Planning For Success
                 </h1>
-                <button className="btn btn-primary call-to-action-button">
+                <a href="/contact" className="btn btn-primary call-to-action-button">
                   Schedule a Demo
-                </button>
+                </a>
               </div>
             </div>
           </div>
