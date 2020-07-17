@@ -1,69 +1,64 @@
 .modules {
-  margin-top: 40px;
-}
-.modules .intro {
-  padding: 50px;
+  margin-top: 25px;
   background: #2F2E2E;
   color: white;
-  /*background: rgb(47,46,46);*/
-  /*background: linear-gradient(90deg, rgba(47,46,46,1) 0%, rgba(255,255,255,1) 50%, rgba(192,144,0,0.6) 100%);*/
 }
-/*.modules h2 {*/
-  /*display: inline-block;*/
-/*}*/
-.modules .intro .logo {
-  color: white;
+.modules ul {
+  list-style-type: none;
+}
+.modules ul li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.modules p {
+  line-height: 2;
+}
+.modules h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+
+.modules .intro {
+  padding: 50px 0;
   text-align: center;
 }
-.modules .intro .logo-img {
-  text-align: center;
+.modules .intro .btn {
+  margin-right: 10px;
 }
-.modules .intro h3 {
-  font-size: 28px;
-  line-height: 1.75;
+.modules .intro h1 {
+  font-size: 4em;
 }
 
 .modules .demand {
-  padding: 50px;
+  padding: 25px 0 50px 0;
   background: #dfc67b;
   color: black;
 }
-.modules .demand h2 {
-  text-align: center;
-  margin-bottom: 25px;
-}
-.modules .demand .demand-section {
-  margin-bottom: 25px;
-}
-/*.modules .demand .demand-section ul {*/
-  /*list-style-type: none;*/
-  /*font-size: 18px;*/
-/*}*/
-/*.modules .demand .demand-section li {*/
-  /*margin-bottom: 10px;*/
-/*}*/
-
 
 .modules .trade {
-  padding: 50px;
+  padding: 25px 0 50px 0;
   background: #c9ddef;
-}
-.modules .trade h2 {
-  text-align: center;
-  margin-bottom: 25px;
+  color: black;
 }
 
-.modules .order {
-  padding: 50px;
+.modules .inventory {
+  padding: 25px 0 50px 0;
+  background: #c9ddef;
+  color: black;
+  background: white;
+  color: black;
 }
-.modules .order h2 {
+.modules .call-to-action-button {
+  margin-top: 25px;
+  font-size: 18px;
+  padding: 18px;
+}
+
+.modules .outro {
+  padding: 50px 0;
   text-align: center;
-  margin-bottom: 25px;
 }
-.modules .order .inventory-features h1 {
-  display: inline-block;
-}
-.modules .order .inventory-features h3 {
-  display: inline-block;
-  margin-left: 10px;
+.modules .outro .btn {
+  margin-right: 10px;
 }

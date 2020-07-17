@@ -54,7 +54,7 @@ const Index = ({ data, location }) => {
             </div>
             <div className="clients__quote">
               <div className="quote-text">
-                Modus is is best thing to happen to our brand. We have never been as confident and powerful.
+                Modus is is best thing to happen to our brand. We have never been more confident and powerful!
               </div>
               <div className="quote-attribution">
                 Clark Daniels, The Food Company 
