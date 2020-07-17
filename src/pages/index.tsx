@@ -16,89 +16,66 @@ const Index = ({ data, location }) => {
       <SEO title="Home" />
       <div className="home-page">
         <div className="pitch">
+          <div className="pitch-overlay"></div>
           <div className="container">
-            <div className="row">
-              <div className="col-xs-12 col-sm-6">
+            <div className="row pitch-content">
+              <div className="col-xs-12">
                 <h1>
                   Modus Planning is your Brand's Operating System.
                 </h1>
                 <h3>
-                  With Modus <i>uniquely</i> at the intersection of Planning and Execution, your brand's potential can be unleashed.
+                  With Modus <i>uniquely</i> at the intersection of Planning and Execution, 
+                </h3>
+                <h3>
+                  your brand's potential can be unleashed.
                 </h3>
                 <a href="/contact" className="btn btn-primary">
                   Schedule a Demo
                 </a>
               </div>
-              <div className="col-xs-12 col-sm-6">
-                <iframe
-                  width="100%"
-                  height="315"
-                  src="https://player.vimeo.com/video/366639724"
-                  frameBorder="0"
-                  allowFullScreen
-                >
-            </iframe>
+            </div>
+          </div>
+        </div>
+        <div className="clients">
+          <div className="container">
+            <div className="row clients__logos">
+              <div className="col-xs-12 col-sm-4">
+                <div className="logo-picture"></div>
+                <h3>Enlightened</h3>
+              </div>
+              <div className="col-xs-12 col-sm-4">
+                <div className="logo-picture"></div>
+                <h3>Banza</h3>
+              </div>
+              <div className="col-xs-12 col-sm-4">
+                <div className="logo-picture"></div>
+                <h3>Hu Kitchen</h3>
+              </div>
+            </div>
+            <div className="clients__quote">
+              <div className="quote-text">
+                Modus is is best thing to happen to our brand. We have never been as confident and powerful.
+              </div>
+              <div className="quote-attribution">
+                Clark Daniels, The Food Company 
               </div>
             </div>
           </div>
         </div>
-        <div className="why">
+        <div className="problem">
           <div className="container">
-            <div className="why-text">
-              <h1>Why</h1>
-              <p className="first-line">
-                Modus Planning is purpose-built for the CPG industry by CPG veterans who saw a major unfilled need – a platform to make planning a small and growing business exponentially more scalable, collaborative, and reliable. 
-              </p>
-              <p className="second-line">
-                For most growing companies, the current bottoms-up planning methodology is controlled chaos in a series of spreadsheets.
-              </p>
-              <p className="third-line">
-                Modus Planning offers a growing brand what it needs most: a scalable platform with capabilities that transcend far beyond the spreadsheet. 
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="features">
-          <div className="container">
+            <h1>Problem</h1>
             <h2>
-              Unleash Your Business with Seamless Cross-Functional Planning and Execution
+              For most growing companies, the current bottoms-up planning methodology is controlled chaos in a series of spreadsheets.
             </h2>
-            <div className="row">
-              <div className="col-xs-12 col-sm-6 col-md-4">
-                <h3>
-                  <i className="fa fa-truck" />
-                  Supply Chain
-                </h3>
-                <ul>
-                  <li>Optimize Inventories</li>
-                  <li>Capacity Plan with Ease</li>
-                  <li>Understand Transportation Costs</li>
-                </ul>
-              </div>
-              <div className="col-xs-12 col-sm-6 col-md-4">
-                <h3>
-                  <i className="fa fa-users" />
-                  Customer Service
-                </h3>
-                <ul>
-                  <li>Anticipate promotions and other demand drivers.</li>
-                  <li>Eliminate Out-of-Stocks</li>
-                  <li>Manage Spoilage Risk</li>
-                </ul>
-              </div>
-              <div className="col-xs-12 col-sm-6 col-md-4">
-                <h3>
-                  <i className="fa fa-shopping-basket" />
-                  Trade Marketing
-                </h3>
-                <ul>
-                  <li>Monitor progress vs. the budget</li>
-                  <li>Manage Retailer Margins</li>
-                  <li>Understand Trade Rates</li>
-                  <li>Optimize Promotion Plans</li>
-                </ul>
-              </div>
-            </div>
+          </div>
+        </div>
+        <div className="solution">
+          <div className="container">
+            <h1>Solution</h1>
+            <h2>
+              Modus Planning offers a growing brand what it needs most: a scalable platform with capabilities that transcend far beyond the spreadsheet.
+            </h2>
           </div>
         </div>
         <div className="call-to-action">
@@ -183,3 +160,64 @@ export const pageQuery = graphql`
       }
   }
 `
+
+        /*<div className="why">*/
+          /*<div className="container">*/
+            /*<div className="why-text">*/
+              /*<h1>Why</h1>*/
+              /*<p className="first-line">*/
+                /*Modus Planning is purpose-built for the CPG industry by CPG veterans who saw a major unfilled need – a platform to make planning a small and growing business exponentially more scalable, collaborative, and reliable. */
+              /*</p>*/
+              /*<p className="second-line">*/
+                /*For most growing companies, the current bottoms-up planning methodology is controlled chaos in a series of spreadsheets.*/
+              /*</p>*/
+              /*<p className="third-line">*/
+                /*Modus Planning offers a growing brand what it needs most: a scalable platform with capabilities that transcend far beyond the spreadsheet. */
+              /*</p>*/
+            /*</div>*/
+          /*</div>*/
+        /*</div>*/
+
+        /*<div className="features">*/
+          /*<div className="container">*/
+            /*<h2>*/
+              /*Unleash Your Business with Seamless Cross-Functional Planning and Execution*/
+            /*</h2>*/
+            /*<div className="row">*/
+              /*<div className="col-xs-12 col-sm-6 col-md-4">*/
+                /*<h3>*/
+                  /*<i className="fa fa-truck" />*/
+                  /*Supply Chain*/
+                /*</h3>*/
+                /*<ul>*/
+                  /*<li>Optimize Inventories</li>*/
+                  /*<li>Capacity Plan with Ease</li>*/
+                  /*<li>Understand Transportation Costs</li>*/
+                /*</ul>*/
+              /*</div>*/
+              /*<div className="col-xs-12 col-sm-6 col-md-4">*/
+                /*<h3>*/
+                  /*<i className="fa fa-users" />*/
+                  /*Customer Service*/
+                /*</h3>*/
+                /*<ul>*/
+                  /*<li>Anticipate promotions and other demand drivers.</li>*/
+                  /*<li>Eliminate Out-of-Stocks</li>*/
+                  /*<li>Manage Spoilage Risk</li>*/
+                /*</ul>*/
+              /*</div>*/
+              /*<div className="col-xs-12 col-sm-6 col-md-4">*/
+                /*<h3>*/
+                  /*<i className="fa fa-shopping-basket" />*/
+                  /*Trade Marketing*/
+                /*</h3>*/
+                /*<ul>*/
+                  /*<li>Monitor progress vs. the budget</li>*/
+                  /*<li>Manage Retailer Margins</li>*/
+                  /*<li>Understand Trade Rates</li>*/
+                  /*<li>Optimize Promotion Plans</li>*/
+                /*</ul>*/
+              /*</div>*/
+            /*</div>*/
+          /*</div>*/
+        /*</div>*/

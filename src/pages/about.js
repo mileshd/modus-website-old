@@ -61,7 +61,13 @@ const AboutPage = ({ data, location }) => {
                   Brian Doyle, CFO
                 </h3>
                 <p>
-                  Brian does this.
+                  Brian has eight years of financial services experience and is a CFA charterholder.
+                </p>
+                <p>
+                  Brian began his career with Fannie Mae in their financial rotational program before moving to Goldman Sachs where he valued complex fixed income investments within GSAM.
+                </p>
+                <p>
+                  Brian joined OnePage Software in the spring of 2017 as the Director of Outreach before being promoted to CFO in the summer of 2020.
                 </p>
               </div>
             </div>
