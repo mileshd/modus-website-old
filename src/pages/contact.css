@@ -4,7 +4,20 @@
 
 .contact .monday-contact-form {
 }
-/* Override */
+
+/* Override Monday.com Forms */
 .contact .form-content-component .form-titles .form-is-anonymous-indicator {
   display: none !important;
+}
+.contact iframe {
+  border: none;
+}
+.contact iframe .form-wrapper-component .form-content-component {
+  box-shadow: none;
+}
+.contact iframe .password-disclaimer {
+  display: none;
+}
+.contact iframe .form-powered-by-monday-component-wrapper .form-powered-by-monday-component {
+  display: none;
 }

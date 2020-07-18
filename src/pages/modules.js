@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
+import Image from "gatsby-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -19,53 +20,61 @@ const ModulesPage = ({ data, location }) => {
         </div>
         <div className="demand">
           <div className="container">
-            <h1>Demand Planning Module</h1>
+            <h1>Demand Planning</h1>
             <div className="row">
               <div className="col-xs-12 col-sm-6">
+                <h2>
+                  Modus is seamless, granular, bottoms-up planning.
+                </h2>
                 <p>
-                  The prerequisite tier that comprises everything you need to set a solid foundation for your brand's volume and promotional planning. Ideal for companies in which the demand plan is created from an unwieldy series of spreadsheets.
+                  The prerequisite tier comprising everything your brand needs to set a solid foundation for volume and promotional planning.  Data can be viewed at a variety of abstractions throughout the supply chain, including Inbound and Outbound Distribution Centers, Retailers and Distributors. Modus provides transformations and disaggregations that would not be possible in a spreadsheet.
                 </p>
               </div>
               <div className="col-xs-12 col-sm-6">
-                Screenshot
+                <div className="screenshot-placeholder"></div>
               </div>
             </div>
           </div>
         </div>
         <div className="trade">
           <div className="container">
-            <h1>Trade Promotion Management and Optimization Module</h1>
+            <h1>Trade Promotion Management</h1>
             <div className="row">
               <div className="col-xs-12 col-sm-6">
-                <p>
-                  To compete, every successful brand needs to have a firm grasp on its promotional plans and how to spend most effectively. Modus TPM/TPO provides the infrastructure and analysis to make this a breeze.
-                </p>
+                <div className="screenshot-placeholder"></div>
               </div>
               <div className="col-xs-12 col-sm-6">
-                Screenshot
+                <h2>
+                  Maximizing trade spend is the key to outperforming the competition.
+                </h2>
+                <p>
+                  Trade Promotion Management allows brands to have a firm grasp of their promotion plans and to maximize trade spend. Modus trade variables helps protect retailer margins so both the brand and retailer benefit in tandem. Included is a scenario planner which maximizes lift percentages across user-define constraints.
+                </p>
               </div>
             </div>
           </div>
         </div>
         <div className="inventory">
           <div className="container">
-            <h1>Go-To-Market Inventory Management Module</h1>
+            <h1>Go-To-Market Inventory Management</h1>
             <div className="row">
               <div className="col-xs-12 col-sm-6">
+                <h2>
+                  Ensure success on shelf by proactively managing customer orders.
+                </h2>
                 <p>
-                  Ensuring that your brand is on-shelf with the right quantity is foundational to a brand's success. Modus helps you collaborate with your supply chain partners to call out potential risks in the network.
+                  Modus Inventory Management gives your brand the tools to determine if customers are ordering appropriately to ensure your brand is on-shelf with the right quantity. Optimize your shelf presence among the competition by avoiding costly stockouts and spoils. 
                 </p>
               </div>
               <div className="col-xs-12 col-sm-6">
-                Screenshot
+                <div className="screenshot-placeholder"></div>
               </div>
             </div>
           </div>
         </div>
         <div className="outro">
           <div className="container">
-            <h1>The Hardest Part is the Onboarding</h1>
-            <h1>Fortunately, We do the Heavy Lifting - For Free</h1>
+            <h1>We do the Onboarding - For Free</h1>
             <h3>
               We understand that a growing brand has minimal time to work through a software implementation. We have lived it, we get it. To that end, we'll take your current files and our experienced team will do their best to build out your Modus World.
             </h3>
@@ -86,6 +95,15 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+      }
+    }
+    tradeModuleScreenshot: file(absolutePath: {
+      regex: "/trade-module-screenshot.png/"
+    }) {
+      childImageSharp {
+        fixed(width: 400, height: 300) {
+          ...GatsbyImageSharpFixed
+        }
       }
     }
   }
