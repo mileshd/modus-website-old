@@ -1,12 +1,84 @@
+
+/* Partial Overlay */
+/*.pitch {*/
+  /*[>background: #2F2E2E;<]*/
+  /*[>background-image: url(../../content/assets/pitch-bg.jpg);<]*/
+  /*background-image: url(../../content/assets/man-holding-soda.jpg);*/
+  /*background-repeat: no-repeat;*/
+  /*background-attachment: fixed;*/
+  /*background-position: center right;*/
+  /*[>background-size: cover;<]*/
+  /*[>background-position: center center;<]*/
+  /*color: white;*/
+  /*padding: 75px 50px;*/
+  /*height: 100vh;*/
+  /*text-align: center;*/
+/*}*/
+
+.new-pitch {
+  background: #2F2E2E;
+  height: 100vh;
+}
+.new-pitch > .pitch-overlay {
+  display: none;
+}
+.new-pitch__text {
+  padding: 25px;
+  max-width: 1000px;
+  height: 100vh;
+  color: white;
+}
+.new-pitch__text h1 {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  line-height: 1.25;
+  font-size: 3em;
+}
+.new-pitch__text ul {
+  list-style-type: none;
+}
+.new-pitch__text h2 {
+  margin-bottom: 25px;
+  line-height: 1.5;
+  font-size: 2em;
+}
+.new-pitch__text .btn {
+  margin-bottom: 25px;
+  font-size: 1.5em;
+  padding: 15px;
+}
+.new-pitch__picture {
+  background-image: url(../../content/assets/man-holding-soda.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .new-pitch__picture {
+    display: none;
+  }
+  .new-pitch {
+    background-image: url(../../content/assets/man-holding-soda.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+  }
+  .new-pitch .pitch-overlay {
+    display: block;
+  }
+}
+
 .pitch {
   /*background: #2F2E2E;*/
-  background-image: url(../../content/assets/pitch-bg.jpg);
+  /*background-image: url(../../content/assets/pitch-bg.jpg);*/
+  background-image: url(../../content/assets/man-holding-soda.jpg);
   background-size: cover;
   background-position: center center;
   color: white;
   padding: 75px 50px;
   height: 100vh;
-  text-align: center;
+  text-align: left;
 }
 .pitch-overlay {
   position: absolute;
@@ -126,11 +198,17 @@ p {
 }
 
 .problem {
-  padding: 100px 0;
+  padding: 200px 0;
+  background-image: url(../../content/assets/smiling-girl-glasses.jpg);
+  background-size: cover;
+  background-position: center center;
 }
 
 .solution {
-  padding: 100px 0;
+  padding: 200px 0;
+  background-image: url(../../content/assets/young-man-blue-sweater.jpg);
+  background-size: cover;
+  background-position: center center;
 }
 
 .call-to-action {

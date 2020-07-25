@@ -15,23 +15,37 @@ const Index = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <SEO title="Home" />
       <div className="home-page">
-        <div className="pitch">
+        <div className="new-pitch">
           <div className="pitch-overlay"></div>
           <div className="container">
             <div className="row pitch-content">
-              <div className="col-xs-12">
+              <div className="col-xs-12 col-sm-6 new-pitch__text">
                 <h1>
-                  Modus Planning is your Brand's Operating System.
+                  It takes a lot to get a product into the customer's hand
                 </h1>
-                <h3>
-                  With Modus <i>uniquely</i> at the intersection of Planning and Execution, 
-                </h3>
-                <h3>
-                  your brand's potential can be unleashed.
-                </h3>
+                <h2 className="pitch-list">
+                  <ul>
+                    <li>
+                      Demand Planning 
+                    </li>
+                    <li>
+                      Order Management
+                    </li>
+                    <li>
+                      Trade Promotion Management
+                    </li>
+                  </ul>
+                </h2>
+                <h2>
+                  Modus Planning is your Brand's Operating System to make that happen.
+                </h2>
                 <a href="/contact" className="btn btn-primary">
                   Schedule a Demo
                 </a>
+              </div>
+              <div className="col-xs-12 col-sm-6 new-pitch__picture">
+                <div className="pitch-overlay">
+                </div>
               </div>
             </div>
           </div>
@@ -40,16 +54,19 @@ const Index = ({ data, location }) => {
           <div className="container">
             <div className="row clients__logos">
               <div className="col-xs-12 col-sm-4">
-                <div className="logo-picture"></div>
-                <h3>Enlightened</h3>
+                 <Image
+                   fixed={data.enlightenedLogo.childImageSharp.fixed}
+                 />
               </div>
               <div className="col-xs-12 col-sm-4">
-                <div className="logo-picture"></div>
-                <h3>Banza</h3>
+                 <Image
+                   fixed={data.banzaLogo.childImageSharp.fixed}
+                 />
               </div>
               <div className="col-xs-12 col-sm-4">
-                <div className="logo-picture"></div>
-                <h3>Hu Kitchen</h3>
+                 <Image
+                   fixed={data.huKitchenLogo.childImageSharp.fixed}
+                 />
               </div>
             </div>
             <div className="clients__quote">
@@ -157,7 +174,34 @@ export const pageQuery = graphql`
             ...GatsbyImageSharpFixed
           }
         }
+    }
+    enlightenedLogo: file(absolutePath: {
+      regex: "/enlightened-logo.jpeg/"
+    }) {
+      childImageSharp {
+        fixed(width: 200, height: 200) {
+          ...GatsbyImageSharpFixed
+        }
       }
+    }
+    banzaLogo: file(absolutePath: {
+      regex: "/banza-logo.jpeg/"
+    }) {
+      childImageSharp {
+        fixed(width: 250, height: 250) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+    huKitchenLogo: file(absolutePath: {
+      regex: "/hu-logo.png/"
+    }) {
+      childImageSharp {
+        fixed(width: 250, height: 250) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
   }
 `
 
