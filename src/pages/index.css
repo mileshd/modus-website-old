@@ -54,6 +54,16 @@
   height: 100vh;
 }
 
+.pitch-list .pitch-demand-planning {
+  color: orange;
+}
+.pitch-list .pitch-order-management {
+  color: blue;
+}
+.pitch-list .trade-promotion-management {
+  color: red;
+}
+
 @media (max-width: 768px) {
   .new-pitch__picture {
     display: none;

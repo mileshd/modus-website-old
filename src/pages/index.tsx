@@ -25,13 +25,13 @@ const Index = ({ data, location }) => {
                 </h1>
                 <h2 className="pitch-list">
                   <ul>
-                    <li>
+                    <li className="pitch-demand-planning">
                       Demand Planning 
                     </li>
-                    <li>
+                    <li className="pitch-order-management">
                       Order Management
                     </li>
-                    <li>
+                    <li className="trade-promotion-management">
                       Trade Promotion Management
                     </li>
                   </ul>

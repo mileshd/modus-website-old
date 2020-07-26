@@ -9,22 +9,13 @@ export default class Footer extends React.Component {
         <div className="container">
           <div className="row">
             <div className="col-xs-12 col-sm-3">
-              <h3>Modules</h3>
+              <h3>Modus Planning</h3>
               <ul>
                 <li>
-                  <a className="link" href="modules#demand-planning">
-                    Demand Planning
-                  </a>
+                  <a href="/modules" className="link">Modules</a>
                 </li>
                 <li>
-                  <a className="link" href="modules#trade-management">
-                    Trade & Promotion Management
-                  </a>
-                </li>
-                <li>
-                  <a className="link" href="modules#inventory-management">
-                    Go-to-Market Inventory Management
-                  </a>
+                  <a href="/caseStudies" className="link">Case Studies</a>
                 </li>
               </ul>
             </div>
@@ -32,18 +23,42 @@ export default class Footer extends React.Component {
               <h3>Company</h3>
               <ul>
                 <li>
-                  <a href="/pricing" className="link">Pricing</a>
+                  <a className="link" href="/about">
+                    About
+                  </a>
                 </li>
-                <li>Privacy Policy</li>
-                <li>Terms of Service</li>
+                <li>
+                  <a className="link" href="/privacyPolicy">
+                    Privacy Policy
+                  </a>
+                </li>
+                <li>
+                  <a className="link" href="/termsOfService">
+                    Terms of Service
+                  </a>
+                </li>
               </ul>
             </div>
             <div className="col-xs-12 col-sm-3">
               <h3>Contact Us</h3>
               <ul>
-                <li>Email</li>
-                <li>Linked In</li>
-                <li>Facebook</li>
+                <li>
+                  <a
+                    href="mailto:hello@modusplanning.com"
+                    className="link"
+                  >
+                    Email
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/company/onepagesoftware/"
+                    target="_blank"
+                    className="link"
+                  >
+                    Linked In
+                  </a>
+                </li>
               </ul>
             </div>
             <div className="col-xs-12 col-sm-3">
