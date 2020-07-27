@@ -55,13 +55,13 @@
 }
 
 .pitch-list .pitch-demand-planning {
-  color: orange;
+  color: #e1ab04;
 }
 .pitch-list .pitch-order-management {
-  color: blue;
+  color: #3e9ddd;
 }
 .pitch-list .trade-promotion-management {
-  color: red;
+  color: #ff7979;
 }
 
 @media (max-width: 768px) {
@@ -122,7 +122,7 @@
 }
 
 .clients {
-  background: white;
+  background: #eee;
   color: #2F2E2E;
   padding: 25px;
   text-align: center;
@@ -134,17 +134,24 @@
 .clients__logos .logo-picture {
   height: 200px;
   width: 200px;
-  background: #ccc;
+  /*background: #ccc;*/
   border-radius: 100px;
   margin: 0 auto;
   margin-bottom: 25px;
 }
-.clients__quote .quote-text {
+
+.client__quote {
+  text-align: center;
+  padding: 65px; 
+  background: #2F2E2E;
+  color: white;
+}
+.client__quote .quote-text {
   font-size: 2em;
   font-style: italic;
-  padding: 50px;
+  margin-bottom: 25px;
 }
-.clients__quote .quote-attribution {
+.client__quote .quote-attribution {
   font-size: 1.5em;
   font-style: italic;
 }
@@ -207,15 +214,54 @@ p {
   font-size: 1.5em;
 }
 
+/*.problem {*/
+  /*padding: 200px 0;*/
+/*}*/
+/*.problem-picture {*/
+  /*background-image: url(../../content/assets/smiling-girl-glasses.jpg);*/
+  /*background-size: cover;*/
+  /*background-position: center center;*/
+/*}*/
+
 .problem {
-  padding: 200px 0;
+  height: 500px;
+}
+.problem-text {
+  height: 500px;
+  width: 50%;
+  display: inline-block;
+  padding: 50px;
+  vertical-align: top;
+}
+.problem-text h2 {
+  line-height: 1.75;
+}
+.problem-picture {
+  height: 500px;
+  width: 50%;
+  display: inline-block;
   background-image: url(../../content/assets/smiling-girl-glasses.jpg);
   background-size: cover;
   background-position: center center;
 }
 
 .solution {
-  padding: 200px 0;
+  height: 500px;
+}
+.solution-text {
+  height: 500px;
+  width: 50%;
+  display: inline-block;
+  padding: 50px;
+  vertical-align: top;
+}
+.solution-text h2 {
+  line-height: 1.75;
+}
+.solution-picture {
+  height: 500px;
+  width: 50%;
+  display: inline-block;
   background-image: url(../../content/assets/young-man-blue-sweater.jpg);
   background-size: cover;
   background-position: center center;
