@@ -15,7 +15,7 @@ export default class Footer extends React.Component {
                   <a href="/modules" className="link">Modules</a>
                 </li>
                 <li>
-                  <a href="/caseStudies" className="link">Case Studies</a>
+                  <a href="/media" className="link">Media</a>
                 </li>
               </ul>
             </div>

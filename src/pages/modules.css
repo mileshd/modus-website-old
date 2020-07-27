@@ -40,21 +40,24 @@
 
 .modules .demand {
   padding: 25px 0 50px 0;
-  background: #dfc67b;
+  /*background: #e1ab04;*/
+  background: #fcdb74;
   color: black;
 }
 
 .modules .trade {
   padding: 25px 0 50px 0;
-  background: #c9ddef;
+  /*background: #ff7979;*/
+  background: #f2a59d;
+  /*background: #c9ddef;*/
   color: black;
 }
 
 .modules .inventory {
   padding: 25px 0 50px 0;
-  background: #c9ddef;
-  color: black;
-  background: white;
+  /*background: #c9ddef;*/
+  /*background: #3e9ddd;*/
+  background: #9eceee;
   color: black;
 }
 .modules .call-to-action-button {
