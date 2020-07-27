@@ -1,4 +1,8 @@
 .media {
   margin-top: 60px;
-  height: 100vh;
+  min-height: 100vh;
+}
+
+iframe {
+  clip-path: inset(1px 1px);
 }

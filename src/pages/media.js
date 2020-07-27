@@ -14,7 +14,36 @@ const MediaPage = ({ data, location }) => {
       <SEO title="Modus Planning Media" />
       <div className="media">
         <div className="container">
-          <h2>Media</h2>
+          <div className="col-xs-12 col-sm-6">
+            <h3>
+              Out of Stocks are a thing of the past. See how Modus puts you in the driver's seat.
+            </h3>
+            <iframe
+              src="https://player.vimeo.com/video/438123064"
+              width="100%"
+              height="324"
+              frameBorder="0"
+              allow="autoplay; fullscreen"
+              allowFullScreen
+              mozallowfullscreen="true"
+              webkitallowfullscreen="true"
+            />
+          </div>
+          <div className="col-xs-12 col-sm-6">
+            <h3>
+              Out of Stocks are a thing of the past. See how Modus puts you in the driver's seat.
+            </h3>
+            <iframe
+              src="https://player.vimeo.com/video/438123064"
+              width="100%"
+              height="324"
+              frameBorder="0"
+              allow="autoplay; fullscreen"
+              allowFullScreen
+              mozallowfullscreen="true"
+              webkitallowfullscreen="true"
+            />
+          </div>
         </div>
       </div>
     </Layout>

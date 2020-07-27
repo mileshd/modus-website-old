@@ -1,7 +1,11 @@
 .about {
-  margin-top: 60px;
+  margin-top: 50px;
+  background: rgb(47,46,46);
+  background: linear-gradient(4deg, rgba(47,46,46,0.804359243697479) 0%, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 65%, rgba(192,144,0,0.6) 100%);
+  /*background: rgb(47,46,46);*/
+  /*background: linear-gradient(176deg, rgba(47,46,46,0.804359243697479) 0%, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 65%, rgba(192,144,0,0.6) 100%);*/
 }
-.about h2 {
+.about h1 {
   text-align: center;
   margin-bottom: 50px;
 }
@@ -11,9 +15,10 @@
   margin-bottom: 35px;
 }
 .about .philosophy {
-  padding: 50px;
-  background: rgb(47,46,46);
-  background: linear-gradient(176deg, rgba(47,46,46,0.804359243697479) 0%, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 65%, rgba(192,144,0,0.6) 100%);
+  padding: 25px;
+  /*padding: 50px;*/
+  /*background: rgb(47,46,46);*/
+  /*background: linear-gradient(176deg, rgba(47,46,46,0.804359243697479) 0%, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 65%, rgba(192,144,0,0.6) 100%);*/
 }
 .about .philosophy h4 {
   font-size: 24px;
@@ -22,8 +27,8 @@
 .about .team {
   padding: 25px 0 100px 0;
   text-align: center;
-  background: rgb(47,46,46);
-  background: linear-gradient(4deg, rgba(47,46,46,0.804359243697479) 0%, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 65%, rgba(192,144,0,0.6) 100%);
+  /*background: rgb(47,46,46);*/
+  /*background: linear-gradient(4deg, rgba(47,46,46,0.804359243697479) 0%, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 65%, rgba(192,144,0,0.6) 100%);*/
 }
 .about .team img {
   border-radius: 10px;
