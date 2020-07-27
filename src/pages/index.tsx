@@ -40,15 +40,15 @@ const Index = ({ data, location }) => {
           <div className="container">
             <div className="row clients__logos">
               <div className="col-xs-12 col-sm-4">
-                <div className="logo-picture"></div>
+              <img className="logo-picture" src="https://media-exp1.licdn.com/dms/image/C4D0BAQE9ykVEomLipg/company-logo_200_200/0?e=2159024400&v=beta&t=Xg5k3btpp82qdsturaBcNTF1AiCECQoaGXjAok_iSbk"/>
                 <h3>Enlightened</h3>
               </div>
               <div className="col-xs-12 col-sm-4">
-                <div className="logo-picture"></div>
+                <img className="logo-picture" src="https://i.pinimg.com/originals/39/6d/74/396d74d91507e5f2d3f5b2418407e0a6.jpg"/>
                 <h3>Banza</h3>
               </div>
               <div className="col-xs-12 col-sm-4">
-                <div className="logo-picture"></div>
+                <img className="logo-picture" src="https://s3-media0.fl.yelpcdn.com/bphoto/mO14VxIohwkp_aoj2AG_HQ/348s.jpg"/>
                 <h3>Hu Kitchen</h3>
               </div>
             </div>

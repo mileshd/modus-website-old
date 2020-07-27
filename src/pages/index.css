@@ -50,9 +50,9 @@
   text-align: center;
 }
 .clients__logos .logo-picture {
-  height: 200px;
-  width: 200px;
-  background: #ccc;
+  height: 150px;
+  width: 150px;
+  /* background: #ccc; */
   border-radius: 100px;
   margin: 0 auto;
   margin-bottom: 25px;
