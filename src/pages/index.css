@@ -19,8 +19,16 @@
   background: #2F2E2E;
   height: 100vh;
 }
-.new-pitch > .pitch-overlay {
+.new-pitch .pitch-overlay {
   display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
 }
 .new-pitch__text {
   padding: 25px;
@@ -48,7 +56,7 @@
   padding: 15px;
 }
 .new-pitch__picture {
-  background-image: url(../../content/assets/man-holding-soda.jpg);
+  background-image: url(../../content/assets/man-holding-soda-small.jpg);
   background-size: cover;
   background-position: center center;
   height: 100vh;
@@ -61,7 +69,7 @@
   color: #3e9ddd;
 }
 .pitch-list .trade-promotion-management {
-  color: #e74c3c;
+  color: #2ecc71;
 }
 
 @media (max-width: 768px) {
@@ -69,7 +77,7 @@
     display: none;
   }
   .new-pitch {
-    background-image: url(../../content/assets/man-holding-soda.jpg);
+    background-image: url(../../content/assets/man-holding-soda-small.jpg);
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -90,16 +98,16 @@
   height: 100vh;
   text-align: left;
 }
-.pitch-overlay {
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.5);
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100vh;
-}
+/*.pitch-overlay {*/
+  /*position: absolute;*/
+  /*background-color: rgba(0, 0, 0, 0.5);*/
+  /*top: 0;*/
+  /*right: 0;*/
+  /*left: 0;*/
+  /*bottom: 0;*/
+  /*width: 100%;*/
+  /*height: 100vh;*/
+/*}*/
 .pitch__content {
   margin: 25px auto;
   max-width: 1000px;
@@ -232,6 +240,7 @@ p {
   display: inline-block;
   padding: 50px;
   vertical-align: top;
+  background: #eee;
 }
 .problem-text h2 {
   line-height: 1.75;
@@ -240,9 +249,25 @@ p {
   height: 500px;
   width: 50%;
   display: inline-block;
-  background-image: url(../../content/assets/smiling-girl-glasses.jpg);
+  background-image: url(../../content/assets/problem-empty-shelves-small.jpg);
   background-size: cover;
   background-position: center center;
+}
+
+@media (max-width: 768px) {
+  .problem {
+    height: auto;
+  }
+  .problem-text {
+    width: 100%;
+    color: white;
+    background-image: url(../../content/assets/problem-empty-shelves-small-dark.jpg);
+    background-size: cover;
+    background-position: center center;
+  }
+  .problem-picture {
+    display: none;
+  }
 }
 
 .solution {
@@ -254,6 +279,7 @@ p {
   display: inline-block;
   padding: 50px;
   vertical-align: top;
+  background: #eee;
 }
 .solution-text h2 {
   line-height: 1.75;
@@ -262,9 +288,24 @@ p {
   height: 500px;
   width: 50%;
   display: inline-block;
-  background-image: url(../../content/assets/young-man-blue-sweater.jpg);
+  background-image: url(../../content/assets/solution-smiling-small.jpg);
   background-size: cover;
   background-position: center center;
+}
+@media (max-width: 768px) {
+  .solution {
+    height: auto;
+  }
+  .solution-text {
+    width: 100%;
+    color: white;
+    background-image: url(../../content/assets/solution-smiling-small-dark.jpg);
+    background-size: cover;
+    background-position: center center;
+  }
+  .solution-picture {
+    display: none;
+  }
 }
 
 .call-to-action {

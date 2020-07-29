@@ -4,6 +4,9 @@ import Image from "gatsby-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import demandScreenshot from '../../content/assets/demand-planning-screenshot.png'
+import tradeScreenshot from '../../content/assets/trade-performance-screenshot.png'
+import orderMgmtScreenshot from '../../content/assets/customer-order-mgmt-screenshot.png'
 import './modules.css'
 
 const ModulesPage = ({ data, location }) => {
@@ -31,7 +34,7 @@ const ModulesPage = ({ data, location }) => {
                 </p>
               </div>
               <div className="col-xs-12 col-sm-6">
-                <div className="screenshot-placeholder"></div>
+                <div className="demand-screenshot"></div>
               </div>
             </div>
           </div>
@@ -41,7 +44,7 @@ const ModulesPage = ({ data, location }) => {
             <h1>Trade Promotion Management</h1>
             <div className="row">
               <div className="col-xs-12 col-sm-6">
-                <div className="screenshot-placeholder"></div>
+                <div className="trade-screenshot"></div>
               </div>
               <div className="col-xs-12 col-sm-6">
                 <h2>
@@ -67,7 +70,7 @@ const ModulesPage = ({ data, location }) => {
                 </p>
               </div>
               <div className="col-xs-12 col-sm-6">
-                <div className="screenshot-placeholder"></div>
+                <div className="inventory-screenshot"></div>
               </div>
             </div>
           </div>
