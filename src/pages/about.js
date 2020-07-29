@@ -4,6 +4,9 @@ import Image from "gatsby-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import ryanPicture from '../../content/assets/ryan-picture.jpeg'
+import milesPicture from '../../content/assets/miles-picture.jpeg'
+import brianPicture from '../../content/assets/brian-picture.jpeg'
 import './about.css'
 
 const AboutPage = ({ data, location }) => {
@@ -32,9 +35,7 @@ const AboutPage = ({ data, location }) => {
             <h1>The Team</h1>
             <div className="row">
               <div className="col-xs-12 col-sm-4">
-                 <Image
-                   fixed={data.ryanPicture.childImageSharp.fixed}
-                 />
+                <img src={ryanPicture} className="team-picture" />
                 <h3>
                   Ryan Moore, CEO
                 </h3>
@@ -46,9 +47,7 @@ const AboutPage = ({ data, location }) => {
                 </p>
               </div>
               <div className="col-xs-12 col-sm-4">
-                 <Image
-                   fixed={data.milesPicture.childImageSharp.fixed}
-                 />
+                <img src={milesPicture} className="team-picture" />
                 <h3>
                   Miles Dickinson, CTO
                 </h3>
@@ -63,9 +62,7 @@ const AboutPage = ({ data, location }) => {
                 </p>
               </div>
               <div className="col-xs-12 col-sm-4">
-                 <Image
-                   fixed={data.brianPicture.childImageSharp.fixed}
-                 />
+                <img src={brianPicture} className="team-picture" />
                 <h3>
                   Brian Doyle, CFO
                 </h3>

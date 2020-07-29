@@ -3,6 +3,10 @@
   min-height: 100vh;
 }
 
+.media h2 {
+  margin-bottom: 20px;
+}
+
 iframe {
   clip-path: inset(1px 1px);
 }

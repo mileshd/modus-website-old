@@ -34,3 +34,18 @@
 .about .team img {
   border-radius: 10px;
 }
+.about .team p {
+  padding: 5px 15px;
+  font-size: 1.4em;
+}
+
+.about .team .ryan-picture {
+  /*background-image: url(../../content/assets/ryan-picture.jpeg);*/
+  /*background-size: cover;*/
+  /*background-position: center left;*/
+  /*height: 300px;*/
+}
+.about .team .miles-picture {
+}
+.about .team .brian-picture {
+}
