@@ -40,10 +40,16 @@
 
 .modules .demand {
   padding: 25px 0 50px 0;
-  background: #e1ab04;
+  background: #d6d6d6;
   /*background: #fcdb74;*/
   /*background: rgba(225, 171, 4, .8);*/
   color: black;
+
+  /* comment out for no full page height */
+  height: 100vh;
+}
+#demand-accent {
+  color: #ce9b00;
 }
 .modules .demand .demand-screenshot {
   background-image: url(../../content/assets/demand-planning-screenshot.png);
@@ -55,11 +61,17 @@
 
 .modules .trade {
   padding: 25px 0 50px 0;
-  /*background: #ff7979;*/
-  /*background: #f2a59d;*/
-  /*background: #c9ddef;*/
-  background: #2ecc71;
-  color: black;
+  /* background: #ff7979; */
+  /* background: #f2a59d; */
+  /* background: #c9ddef; */
+  /* background: #2ecc71; */
+  background: #808080;
+
+  /* comment out for no full page height */
+  height: 100vh;
+}
+#trade-accent {
+  color: #02de00;
 }
 .modules .trade .trade-screenshot {
   background-image: url(../../content/assets/trade-performance-screenshot.png);
@@ -74,8 +86,14 @@
   /*background: #c9ddef;*/
   /*background: #3e9ddd;*/
   /*background: #9eceee;*/
-  background: #3e9ddd;
+  background: #d6d6d6;
   color: black;
+
+  /* comment out for no full page height */
+  height: 100vh;
+}
+#inventory-accent{
+  color: #3e9ddd;
 }
 .modules .inventory .inventory-screenshot {
   background-image: url(../../content/assets/customer-order-mgmt-screenshot.png);

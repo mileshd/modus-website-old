@@ -23,14 +23,15 @@ const ModulesPage = ({ data, location }) => {
         </div>
         <div className="demand">
           <div className="container">
-            <h1>Demand Planning</h1>
+            <h1 id="demand-accent">Demand Planning</h1>
             <div className="row">
               <div className="col-xs-12 col-sm-6">
                 <h2>
-                  Modus is seamless, granular, bottoms-up planning.
+                  Modus is <span id="demand-accent">seamless</span>, granular, bottoms-up planning.
                 </h2>
                 <p>
-                  The prerequisite tier comprising everything your brand needs to set a solid foundation for volume and promotional planning.  Data can be viewed at a variety of abstractions throughout the supply chain, including Inbound and Outbound Distribution Centers, Retailers and Distributors. Modus provides transformations and disaggregations that would not be possible in a spreadsheet.
+                  The prerequisite tier comprising everything your brand needs to set a solid <span id="demand-accent">foundation for volume and promotional planning</span>.  Data can be viewed at a variety of abstractions throughout the supply chain, including Inbound and Outbound Distribution Centers, Retailers and Distributors. Modus provides transformations and disaggregations that 
+                  <span id="demand-accent"> would not be possible in a spreadsheet</span>.
                 </p>
               </div>
               <div className="col-xs-12 col-sm-6">
@@ -41,17 +42,18 @@ const ModulesPage = ({ data, location }) => {
         </div>
         <div className="trade">
           <div className="container">
-            <h1>Trade Promotion Management</h1>
+            <h1 id="trade-accent">Trade Promotion Management</h1>
             <div className="row">
               <div className="col-xs-12 col-sm-6">
                 <div className="trade-screenshot"></div>
               </div>
               <div className="col-xs-12 col-sm-6">
                 <h2>
-                  Maximizing trade spend is the key to outperforming the competition.
+                  <span id="trade-accent">Maximizing trade spend</span> is the key to outperforming the competition.
                 </h2>
                 <p>
-                  Trade Promotion Management allows brands to have a firm grasp of their promotion plans and to maximize trade spend. Modus trade variables helps protect retailer margins so both the brand and retailer benefit in tandem. Included is a scenario planner which maximizes lift percentages across user-define constraints.
+                  Trade Promotion Management allows brands to have a firm grasp of their promotion plans and to maximize trade spend. Modus trade variables 
+                  <span id="trade-accent">helps protect retailer margins</span> so both the brand and retailer benefit in tandem. Included is a scenario planner which maximizes lift percentages across user-define constraints.
                 </p>
               </div>
             </div>
@@ -59,14 +61,14 @@ const ModulesPage = ({ data, location }) => {
         </div>
         <div className="inventory">
           <div className="container">
-            <h1>Go-To-Market Inventory Management</h1>
+            <h1 id="inventory-accent">Go-To-Market Inventory Management</h1>
             <div className="row">
               <div className="col-xs-12 col-sm-6">
                 <h2>
-                  Ensure success on shelf by proactively managing customer orders.
+                  Ensure success on shelf by <span id="inventory-accent">proactively managing customer orders</span>.
                 </h2>
                 <p>
-                  Modus Inventory Management gives your brand the tools to determine if customers are ordering appropriately to ensure your brand is on-shelf with the right quantity. Optimize your shelf presence among the competition by avoiding costly stockouts and spoils. 
+                  Modus Inventory Management gives your brand the tools to <span id="inventory-accent">determine if customers are ordering appropriately</span> to ensure your brand is on-shelf with the right quantity. Optimize your shelf presence among the competition by avoiding costly stockouts and spoils. 
                 </p>
               </div>
               <div className="col-xs-12 col-sm-6">
